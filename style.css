@@ -1,0 +1,87 @@
+:root {
+  --my-font: 'Roboto', sans-serif;
+  --my-font-size: 1em;
+  --my-font-size-large: 1.1em;
+  --my-color-background: #FFF;
+  --my-color-light: #eef0f2;
+  --my-color-medium: #c9cbce;
+  --my-color-accent: #245C80;
+  --my-color-accent-hover: #805924;
+  --my-color-accent-font: #fff;
+}
+
+body {
+  background-color: var(--my-color-background);
+  font-size: var(--my-font-size);
+  font-family: var(--my-font);
+  margin: auto;
+}
+
+a {
+  color: var(--my-color-accent);
+}
+a:hover {
+  color: var(--my-color-accent-hover);
+}
+.my-content {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.my-logo img {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.my-title {
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.my-intro {
+  padding: 10px;
+}
+.my-links ul {
+  margin: 0;
+  padding: 0;
+}
+
+.my-links li {
+  text-align: center;
+  list-style: none;
+  padding: 15px;
+  background-color: var(--my-color-light);
+  border: 1px solid var(--my-color-medium);
+  margin: 20px;
+  box-shadow: 8px 8px 8px #d5d5d5;
+  border-radius: 10px;
+}
+
+.my-links li .my-button {
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  padding: 10px;
+  background-color: var(--my-color-accent);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ededed;
+}
+
+.my-links a {
+  text-decoration: none;
+  color: var(--my-color-accent-font);
+}
+
+.my-links a:hover {
+  background-color: var(--my-color-accent-hover);
+}
+
+.my-links-title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: var(--my-font-size-large);
+  padding: 10px;
+}
