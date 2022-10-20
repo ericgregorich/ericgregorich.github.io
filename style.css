@@ -43,12 +43,12 @@ a:hover {
 .my-intro {
   padding: 10px;
 }
-.my-links ul {
+.my-projects ul {
   margin: 0;
   padding: 0;
 }
 
-.my-links li {
+.my-projects li {
   text-align: center;
   list-style: none;
   padding: 15px;
@@ -59,7 +59,7 @@ a:hover {
   border-radius: 10px;
 }
 
-.my-links li .my-button {
+.my-projects li .my-button {
   display: block;
   max-width: 200px;
   margin: auto;
@@ -70,16 +70,16 @@ a:hover {
   box-shadow: 3px 3px 3px #ededed;
 }
 
-.my-links a {
+.my-projects a {
   text-decoration: none;
   color: var(--my-color-accent-font);
 }
 
-.my-links a:hover {
+.my-projects a:hover {
   background-color: var(--my-color-accent-hover);
 }
 
-.my-links-title {
+.my-projects-title {
   text-transform: uppercase;
   font-weight: 800;
   font-size: var(--my-font-size-large);
