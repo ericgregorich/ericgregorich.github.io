@@ -2,10 +2,10 @@
   --my-font: 'Roboto', sans-serif;
   --my-font-size: 1em;
   --my-font-size-large: 1.1em;
-  --my-color-background: #FFF;
+  --my-color-background: #fff;
   --my-color-light: #eef0f2;
   --my-color-medium: #c9cbce;
-  --my-color-accent: #245C80;
+  --my-color-accent: #245c80;
   --my-color-accent-hover: #805924;
   --my-color-accent-font: #fff;
 }
@@ -46,6 +46,7 @@ a:hover {
 .my-projects ul {
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .my-projects li {
@@ -86,10 +87,6 @@ a:hover {
   padding: 10px;
 }
 
-.my-social {
-  margin-top: 20px;
-}
-
 .my-social a {
-  padding: 15px;
+  padding: 10px;
 }
