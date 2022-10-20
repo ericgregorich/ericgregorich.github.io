@@ -85,3 +85,11 @@ a:hover {
   font-size: var(--my-font-size-large);
   padding: 10px;
 }
+
+.my-social {
+  margin-top: 20px;
+}
+
+.my-social a {
+  padding: 15px;
+}
