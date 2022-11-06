@@ -3,7 +3,7 @@
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --my-font-size: 1em;
   --my-font-size-large: 1.1em;
-  --my-color-background: #f5f3f2;
+  --my-color-background: #f1f5f8;
   --my-color-light: #ffffff;
   --my-color-medium: #d7d9db;
   --my-color-accent: #047da5;
@@ -59,8 +59,8 @@ a:hover {
   background-color: var(--my-color-light);
   border: 1px solid var(--my-color-medium);
   margin: 20px;
-  box-shadow: 5px 5px 5px var(--my-color-medium);
-  border-radius: 5px;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.08), 0 8px 8px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
 }
 
 .my-projects li .my-button {
@@ -71,7 +71,6 @@ a:hover {
   background-color: var(--my-color-accent);
   margin-bottom: 15px;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px #ededed;
 }
 
 .my-projects a {
